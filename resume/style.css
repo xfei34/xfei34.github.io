@@ -71,6 +71,31 @@ p {
 	float: left;
 }
 
+#alert{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    transition: all 0.5s;
+}
+
+#alert.hide {
+    top: -5rem;
+}
+
+#alert p{
+    color: white !important;
+    text-align: center;
+    background: green;
+    font-size: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 15px 1px black;
+}
+
+
+    
+}
+
 #pdf {
     padding: 0.5rem;
     border-radius: 3px;
