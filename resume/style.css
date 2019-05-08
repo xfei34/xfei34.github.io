@@ -71,6 +71,12 @@ p {
 	float: left;
 }
 
+#pdf {
+    padding: 0.5rem;
+    border-radius: 3px;
+    background: wheat;
+}
+
 #contactDetails {
 	float: right;
 }
